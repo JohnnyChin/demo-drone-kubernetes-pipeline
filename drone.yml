@@ -13,11 +13,6 @@ steps:
   commands:
   - echo bonjour monde
 
-- name: bonjour from develop!
-  image: alpine
-  commands:
-  - echo bonjour monde de develope!
-
 - name: nihao
   image: alpine
   commands:
