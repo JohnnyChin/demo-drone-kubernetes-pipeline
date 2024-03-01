@@ -1,6 +1,6 @@
 kind: pipeline
 type: kubernetes
-name: en1
+name: en
 
 steps:
 - name: greeting
