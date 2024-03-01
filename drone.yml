@@ -1,0 +1,19 @@
+kind: pipeline
+type: kubernetes
+name: en1
+
+steps:
+- name: greeting
+  image: alpine
+  commands:
+  - echo hello world
+
+- name: bonjour
+  image: alpine
+  commands:
+  - echo bonjour monde
+
+- name: bonjour from develop!
+  image: alpine
+  commands:
+  - echo bonjour monde de develope!
